@@ -1,5 +1,5 @@
 function [x_d, y_d, z_d]=state_discretize(state)
-rangexy=linspace(-0.1,1.1,50);
+rangexy=linspace(-0.5,1.5,50);
 rangez=linspace(1.4,1.6,3);
 rangerpy=linspace(-0.1,0.1,6);
 %% x and y indexing
